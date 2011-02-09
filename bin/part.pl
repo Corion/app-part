@@ -23,7 +23,12 @@ part - split up a single input file into multiple files according to a column va
 
 =head1 SYNOPSIS
 
-part FILES
+    # Split a comma separated file according to the third column
+    # keeping and reproducing one line of headers
+    perl -w part.pl example.csv --header-line=1 --column=3 "--separator=,"
+
+    # Split a tab separated file according to the second column
+    perl -w part.pl example.tsv --column=2 --separator=009
 
 =head1 OPTIONS
 
