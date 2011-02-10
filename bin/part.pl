@@ -1,4 +1,3 @@
-<c>
 #!/usr/bin/perl -w
 use strict;
 use Getopt::Long;
@@ -99,6 +98,21 @@ C<awk> one-liner might help you:
     # Example of parting on column 3
     awk -F '{ print $0 > $3 }' FILE
 
+=head1 REPOSITORY
+
+The public repository of this program is 
+L<http://github.com/Corion/app-part>.
+
+=head1 SUPPORT
+
+The public support forum of this program is
+L<http://perlmonks.org/>. The homepage is
+L<http://perlmonks.org/?node_id=598718> .
+
+=head1 BUG TRACKER
+
+Please report bugs via L<http://perlmonks.org>.
+
 =head1 AUTHOR
 
 Copyright (c) 2007-2011 Max Maischein (C<< corion@cpan.org >>)
@@ -171,4 +185,3 @@ for my $key (sort keys %lines) {
     print {$fh} "$_\n"
         for (@{ $lines{ $key }});
 };
-</c>
