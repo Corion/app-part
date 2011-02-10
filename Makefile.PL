@@ -21,6 +21,8 @@ WriteMakefile1(
     AUTHOR          => 'Max Maischein <corion@cpan.org>',
 );
 
+regen_README('bin/part.pl');
+
 1;
 
 sub WriteMakefile1 {  #Written by Alexandr Ciornii, version 0.21. Added by eumm-upgrade.
@@ -45,3 +47,26 @@ sub WriteMakefile1 {  #Written by Alexandr Ciornii, version 0.21. Added by eumm-
     
     WriteMakefile(%params);
 }
+
+sub regen_README {
+    eval {
+        require Pod::Readme;
+
+        my $parser = Pod::Readme->new();
+
+        # Read POD from Module.pm and write to README
+        $parser->parse_from_file($_[0], 'README');
+    };
+    eval {
+        require Pod::Markdown;
+
+        my $parser = Pod::Markdown->new();
+
+        # Read POD from Module.pm and write to README
+        $parser->parse_from_file($_[0]);
+        open my $fh, '>', 'README.mkdn'
+            or die "Couldn't open 'README.mkdn': $!";
+        print $fh $parser->as_markdown;
+    };
+}
+
