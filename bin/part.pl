@@ -91,21 +91,21 @@ C<awk> one-liner might help you:
 =head1 REPOSITORY
 
 The public repository of this program is 
-L<http://github.com/Corion/app-part>.
+L<https://github.com/Corion/app-part>.
 
 =head1 SUPPORT
 
 The public support forum of this program is
-L<http://perlmonks.org/>. The homepage is
-L<http://perlmonks.org/?node_id=598718> .
+L<https://perlmonks.org/>. The homepage is
+L<https://perlmonks.org/?node_id=598718> .
 
 =head1 BUG TRACKER
 
-Please report bugs via L<http://perlmonks.org>.
+Please report bugs via L<https://perlmonks.org>.
 
 =head1 AUTHOR
 
-Copyright (c) 2007-2011 Max Maischein (C<< corion@cpan.org >>)
+Copyright (c) 2007-2018 Max Maischein (C<< corion@cpan.org >>)
 
 =cut
 
