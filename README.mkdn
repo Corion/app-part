@@ -79,18 +79,18 @@ If your memory is not large enough, the following
 # REPOSITORY
 
 The public repository of this program is 
-[http://github.com/Corion/app-part](http://github.com/Corion/app-part).
+[https://github.com/Corion/app-part](https://github.com/Corion/app-part).
 
 # SUPPORT
 
 The public support forum of this program is
-[http://perlmonks.org/](http://perlmonks.org/). The homepage is
-[http://perlmonks.org/?node\_id=598718](http://perlmonks.org/?node_id=598718) .
+[https://perlmonks.org/](https://perlmonks.org/). The homepage is
+[https://perlmonks.org/?node\_id=598718](https://perlmonks.org/?node_id=598718) .
 
 # BUG TRACKER
 
-Please report bugs via [http://perlmonks.org](http://perlmonks.org).
+Please report bugs via [https://perlmonks.org](https://perlmonks.org).
 
 # AUTHOR
 
-Copyright (c) 2007-2011 Max Maischein (`corion@cpan.org`)
+Copyright (c) 2007-2018 Max Maischein (`corion@cpan.org`)
