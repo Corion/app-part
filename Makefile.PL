@@ -16,6 +16,8 @@ WriteMakefile1(
     'LICENSE'       => 'perl',
     'VERSION_FROM'  => 'bin/part.pl', # finds $VERSION
     'PREREQ_PM'     => { 
+        'Getopt::Long' => 0,
+        'Pod::Usage'   => 0,
                       }, # e.g., Module::Name => 1.1
     ABSTRACT_FROM   => 'bin/part.pl', # retrieve abstract from module
     AUTHOR          => 'Max Maischein <corion@cpan.org>',

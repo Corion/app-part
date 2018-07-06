@@ -1,20 +1,10 @@
 #!/usr/bin/perl -w
+use 5.006;
 use strict;
 use Getopt::Long;
+use Pod::Usage;
 
-use vars qw($VERSION);
-$VERSION = '0.06';
-
-# Try to load Pod::Usage and install a fallback if it doesn't exist
-eval {
-    require Pod::Usage;
-    Pod::Usage->import();
-    1;
-} or do {
-    *pod2usage = sub {
-        die "Error in command line.\n";
-    };
-};
+our $VERSION = '0.07';
 
 =head1 NAME
 
