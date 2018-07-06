@@ -7,3 +7,4 @@ blib/
 App-part-*
 .releaserc
 cover_db
+MYMETA.*
