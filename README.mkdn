@@ -1,3 +1,7 @@
+
+[![Travis Build Status](https://travis-ci.org/Corion/App-part.svg?branch=master)](https://travis-ci.org/Corion/App-part)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/Corion/App-part?branch=master&svg=true)](https://ci.appveyor.com/project/Corion/App-part)
+
 # NAME
 
 part - split up a single input file into multiple files according to a column value
@@ -78,7 +82,7 @@ If your memory is not large enough, the following
 
 # REPOSITORY
 
-The public repository of this program is 
+The public repository of this program is
 [https://github.com/Corion/app-part](https://github.com/Corion/app-part).
 
 # SUPPORT
@@ -93,4 +97,4 @@ Please report bugs via [https://perlmonks.org](https://perlmonks.org).
 
 # AUTHOR
 
-Copyright (c) 2007-2018 Max Maischein (`corion@cpan.org`)
+Copyright (c) 2007-2019 Max Maischein (`corion@cpan.org`)
