@@ -3,7 +3,7 @@ our $VERSION = '0.07';
 
 =head1 NAME
 
-App::part - split up files according to column value
+App::part - split up a single input file into multiple files according to a column value
 
 =head1 SYNOPSIS
 
