@@ -90,7 +90,7 @@ C<awk> one-liner might help you:
 
 =head1 REPOSITORY
 
-The public repository of this program is 
+The public repository of this program is
 L<https://github.com/Corion/app-part>.
 
 =head1 SUPPORT
