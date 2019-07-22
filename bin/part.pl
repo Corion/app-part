@@ -105,7 +105,7 @@ Please report bugs via L<https://perlmonks.org>.
 
 =head1 AUTHOR
 
-Copyright (c) 2007-2018 Max Maischein (C<< corion@cpan.org >>)
+Copyright (c) 2007-2019 Max Maischein (C<< corion@cpan.org >>)
 
 =cut
 
