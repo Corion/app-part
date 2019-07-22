@@ -1,5 +1,5 @@
 package App::part;
-our $VERSION = '0.01';
+our $VERSION = '0.07';
 
 =head1 NAME
 
